@@ -1,7 +1,14 @@
-let tempature = [document.getElementById('data1'), document.getElementById('data2')]
+//let tempature = document.getElementById('data1')
 
-let currentTemp = document.getElementById(currentTemp)
+let tempature = [document.getElementById('data1'), document.getElementById('data2'), document.getElementById('data3'), document.getElementById('data4'), document.getElementById('data5')]
 
-currentTemp.innerHTML = '65'
+for (let i = 0; i < tempature.length; i++) {
 
-tempature[0].innerHTML = '89'
+
+    tempature[i].innerHTML = Math.floor(Math.random() * 80) + 30
+
+
+}
+
+
+
